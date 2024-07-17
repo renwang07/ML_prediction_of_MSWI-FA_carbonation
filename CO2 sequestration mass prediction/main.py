@@ -13,7 +13,7 @@ SHAP_plot_save_path = './SHAP_plot2/'
 feature_SHAP_plot_path = 'All feature SHAP scatter plots/'
 heat_map_path = "heatmap/"
 dependence_plot_save_path = 'SHAP dependence_plot/'
-dataset_file = './Dataset1/dataset1.xlsx'
+dataset_file = './Datasets/dataset_CO2 sequestration mass prediction.xlsx'
 
 def result_plot(model_predict, raw_feature_train_summary, train_feature, train_target, train_data_predict, test_feature, test_target, test_data_predict,raw_train_feature, raw_train_target, raw_test_feature, raw_test_target):
     # test_predict_plot(test_data_predict, test_target)
